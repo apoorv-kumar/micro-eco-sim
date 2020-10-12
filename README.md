@@ -1,7 +1,12 @@
 # micro-eco-sim
 A basic microeconomics simulator
 
-microeconomics simulation
+microeconomics simulation - tries to simulate entities listed. 
+
+The Simulation outputs monthly
+1. Prices
+2. Savings
+3. Inflation
 
 to execute:
 ```
@@ -36,7 +41,7 @@ Person (Consumer)
 - Subscribes to an auction
 	- Keeps bidding until it runs out of budget because they are afraid of losing out on goods just in case there is a scarcity (they don't know there're enough goods for everyone)
 	- Increases bid by Re 1 each time if they see their bid is not the highest (only if buyer's budget allows)  
-- End of month it whatever remains after spending is put into savings (which goes to bank)
+- End of month it whatever remains after spending is put into savings (which goes to bank and is not *liquid*) 
 
 Govt (Seller, bank, employer)
 - It gets it's entire money back each month that it'd paid as salary at the end of month (either as savings or as payment for goods)
