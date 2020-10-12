@@ -4,8 +4,10 @@ A basic microeconomics simulator
 microeconomics simulation
 
 to execute:
+'''
     cd micro-eco-sim 
     python3 main.py
+'''
 
 Entities
 1. Person
